@@ -1,0 +1,38 @@
+
+.hero {
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero .container{
+    width: 100vw;
+}
+
+.hero__content{
+    position: absolute;
+    z-index: 10;
+    padding-left: 10%;
+    padding-top: 20%;
+}
+
+.hero__title {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.hero__text {
+    font-size: 34px;
+}
+
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper__image {
+    object-fit: contain;
+}
+.swiper-pagination {
+}

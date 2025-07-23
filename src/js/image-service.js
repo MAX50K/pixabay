@@ -8,6 +8,7 @@ export default class ImageApiService {
 
   fetchImages(){
     const url = `${BASE_URL}?key=${API_KEY}&editors_choice=true&page=${this.page}&per_page=3`
+      
     return fetch(url)
       .then(r => r.json())
       .then(({ hits }) => {

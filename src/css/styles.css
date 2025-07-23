@@ -5,6 +5,7 @@
   |============================
 */
 @import url('./base/reset.css');
+@import url("./base/layout/hero.css");
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
